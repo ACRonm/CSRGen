@@ -1,13 +1,10 @@
 <div align="center">
+  <img src="public/icons/android-chrome-512x512.png" alt="CSRGen Logo" width="128" height="128">
   <h1 align="center">Browser-Based CSR Generator Extension</h1>
   <p align="center">
     A secure, client-side browser extension for generating Certificate Signing Requests (CSRs) and private keys directly in your browser.
   </p>
 </div>
-
-<br/>
-
-![CSRGen Screenshot](https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6)
 
 ## ✨ Features
 
