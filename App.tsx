@@ -57,8 +57,8 @@ export default function App() {
 
 	const handleGenerate = useCallback(() => {
 		setError('');
-		const hasSubject = Object.values(subject).some(v => v.length > 0);
-		const hasSans = Object.values(sans).some(v => v.length > 0);
+		const hasSubject = Object.values(subject).some(v => Array.isArray(v) && v.length > 0);
+		const hasSans = Object.values(sans).some(v => Array.isArray(v) && v.length > 0);
 		if (!hasSubject && !hasSans) {
 			setError('CSR must have at least one Subject or Subject Alternative Name.');
 			return;

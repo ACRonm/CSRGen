@@ -21,7 +21,7 @@ export interface SANs {
 
 export interface KeyUsageFlags {
 	digitalSignature?: boolean;
-	contentCommitment?: boolean; // nonRepudiation
+	contentCommitment?: boolean;
 	keyEncipherment?: boolean;
 	dataEncipherment?: boolean;
 	keyAgreement?: boolean;

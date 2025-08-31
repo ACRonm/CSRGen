@@ -21,7 +21,7 @@ function keyUsageToBitString(ku: KeyUsageFlags): asn1js.BitString {
 	const bitView = new Uint8Array(bitArray);
 
 	if (ku.digitalSignature) bitView[0] |= 0x80;
-	if (ku.nonRepudiation) bitView[0] |= 0x40;
+	if (ku.contentCommitment) bitView[0] |= 0x40;
 	if (ku.keyEncipherment) bitView[0] |= 0x20;
 	if (ku.dataEncipherment) bitView[0] |= 0x10;
 	if (ku.keyAgreement) bitView[0] |= 0x08;
