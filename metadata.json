@@ -1,0 +1,5 @@
+{
+  "name": "Browser CSR Generator",
+  "description": "A 100% client-side browser application to generate PKCS#10 Certificate Signing Requests (CSRs) and private keys locally using WebCrypto and PKI.js. No data is ever sent to a server.",
+  "requestFramePermissions": []
+}

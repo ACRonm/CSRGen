@@ -1,0 +1,13 @@
+{
+	"manifest_version": 3,
+	"name": "CSR Generator",
+	"version": "1.0",
+	"description": "A browser extension to generate Certificate Signing Requests (CSRs).",
+	"action": {
+		"default_popup": "index.html"
+	},
+	"icons": {
+		"16": "icons/icon16.png",
+		"48": "icons/icon32.png"
+	}
+}
